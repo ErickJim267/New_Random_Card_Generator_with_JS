@@ -11,3 +11,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background: green;
+  box-sizing: border-box;
+}
+#miCarta {
+  text-align: center;
+  display: inline-block;
+  background: whitesmoke;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  padding-top: 120px;
+  border-radius: 15px;
+  border: 2px solid black;
+  position: relative;
+  top: 30px;
+}
+#numeroDeCarta {
+  font-size: 100px;
+  padding-top: 100px;
+}
+#simbIzq {
+  position: absolute;
+  font-size: 40px;
+  padding: 10px;
+  top: 0;
+  left: 0%;
+}
+#simbDer {
+  position: absolute;
+  font-size: 40px;
+  padding: 10px;
+  bottom: 0;
+  right: 0%;
+}
